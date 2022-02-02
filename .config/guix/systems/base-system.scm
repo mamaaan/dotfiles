@@ -93,7 +93,7 @@ EndSection
 
     ;; Choose US English keyboard layout.  The "altgr-intl"
     ;; variant provides dead keys for accented characters.
-    (keyboard-layout (keyboard-layout "uk" #:model "xps"))
+    (keyboard-layout (keyboard-layout "gb" "intl"))
 
     ;; Use the UEFI variant of GRUB with the EFI System
     ;; Partition mounted on /boot/efi.
