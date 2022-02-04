@@ -155,7 +155,9 @@ EndSection
                         xf86-input-libinput
                         nss-certs     ;; for HTTPS access
                         gvfs          ;; for user mounts
-                        (list sbcl stumpwm `(,stumpwm "lib"))) ;;stumpwm    
+                        sbcl 
+                        stumpwm 
+                        `(,stumpwm "lib")) ;;stumpwm    
                     %base-packages))
 
     ;; Use the "desktop" services, which include the X11 log-in service,
