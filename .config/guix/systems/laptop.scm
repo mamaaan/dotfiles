@@ -1,6 +1,6 @@
 (define-module (laptop)
   #:use-module (base-system)
-  #:use-module (gnu)
+  #:use-module (gnu))
 
 (operating-system
  (inherit base-operating-system)
