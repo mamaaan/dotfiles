@@ -81,7 +81,7 @@ EndSection
 ")
 
 
-(define-public base-operating-system
+;;(define-public base-operating-system
   (operating-system
     (host-name "hackstock")
     ;(timezone "America/Los_Angeles")
@@ -196,4 +196,4 @@ EndSection
                             %my-desktop-services)))
 
     ;; Allow resolution of '.local' host names with mDNS
-    (name-service-switch %mdns-host-lookup-nss)))
+    (name-service-switch %mdns-host-lookup-nss));)
