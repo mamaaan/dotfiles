@@ -1,13 +1,8 @@
 ;; NOTE: This file is generated from ~/.dotfiles/System.org.  Please see commentary there.
 
 (list (channel
-        (name 'channel-x)
-        (url "file:///home/daviwil/Projects/Code/channel-x"))
-      (channel
         (name 'flat)
         (url "https://github.com/flatwhatson/guix-channel.git")
-        (commit
-          "7b8353ebbcf486e3344924d1cac0fa7ba47c371d")
         (introduction
           (make-channel-introduction
             "33f86a4b48205c0dc19d7c036c85393f0766f806"
