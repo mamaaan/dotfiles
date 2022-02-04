@@ -1,5 +1,5 @@
 (define-module (laptop)
-  #:use-modules (base-system)
+  #:use-module (base-system)
   #:use-module (gnu))
 
 (operating-system
