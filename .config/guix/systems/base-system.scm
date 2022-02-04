@@ -86,7 +86,7 @@ EndSection
     (host-name "hackstock")
     ;(timezone "America/Los_Angeles")
     (timezone "Europe/London")
-    (locale "en_UK.utf8")
+    (locale "en_GB.utf8")
 
     ;; Use non-free Linux and firmware
     (kernel linux)
