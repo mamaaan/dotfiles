@@ -1,7 +1,6 @@
 (define-module (laptop)
   #:use-module (base-system)
   #:use-module (gnu)
-  #:use-module (nongnu packages linux))
 
 (operating-system
  (inherit base-operating-system)
