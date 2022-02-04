@@ -24,6 +24,7 @@
   #:use-module (gnu packages web-browsers)
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages package-management)
+  #:use-module (gnu packages lisp)
   #:use-module (nongnu packages linux)
   #:use-module (nongnu system linux-initrd))
 
