@@ -31,6 +31,7 @@
 (use-service-modules desktop xorg)
 (use-package-modules certs)
 (use-package-modules shells)
+(use-package-modules wm)
 
 
 ;; Allow members of the "video" group to change the screen brightness.
