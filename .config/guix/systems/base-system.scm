@@ -20,7 +20,6 @@
   #:use-module (gnu packages linux)
   #:use-module (gnu packages audio)
   #:use-module (gnu packages gnuzilla)
-  #:use-module (gnu packages pulseaudio)
   #:use-module (gnu packages web-browsers)
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages package-management)
@@ -83,8 +82,7 @@ EndSection
 
 (define-public base-operating-system
   (operating-system
-    (host-name "hackstock")
-    ;(timezone "America/Los_Angeles")
+    (host-name "base")
     (timezone "Europe/London")
     (locale "en_GB.utf8")
 
@@ -92,9 +90,7 @@ EndSection
     (kernel linux)
     (firmware (list linux-firmware))
     (initrd microcode-initrd)
-
-    ;; Choose US English keyboard layout.  The "altgr-intl"
-    ;; variant provides dead keys for accented characters.
+   
     (keyboard-layout (keyboard-layout "gb" "intl"))
 
     ;; Use the UEFI variant of GRUB with the EFI System
@@ -149,8 +145,6 @@ EndSection
                         emacs
                         xterm
                         bluez
-                        bluez-alsa
-                        pulseaudio
                         tlp
                         xf86-input-libinput
                         nss-certs     ;; for HTTPS access
