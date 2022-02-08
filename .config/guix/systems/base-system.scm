@@ -18,8 +18,6 @@
   #:use-module (gnu packages gnome)
   #:use-module (gnu packages mtools)
   #:use-module (gnu packages linux)
-  #:use-module (gnu packages audio)
-  #:use-module (gnu packages gnuzilla)
   #:use-module (gnu packages web-browsers)
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages package-management)
