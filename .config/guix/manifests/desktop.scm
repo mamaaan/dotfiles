@@ -1,3 +1,5 @@
+(specifications->manifest
+ '(
 ;; Window Manager
 "stumpwm"
 "stumpwm:lib"
@@ -29,4 +31,4 @@
 "font-liberation"
 "font-awesome"
 "font-google-material-design-icons"
-"gs-fonts"
+"gs-fonts"))
